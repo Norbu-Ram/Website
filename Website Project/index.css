@@ -1,0 +1,191 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-emphasis: none;
+}
+
+body {
+ background-color: white;
+}
+
+.navigationBar
+{
+	background:#f2f2f2;
+    width :100%;
+	height: 70px;
+}
+ .topNav img
+ {
+    margin-top: 25px;
+    margin-left: 100px;
+    width :80px;
+	height: 20px;
+  
+}
+.topNav ul
+{
+	float: right;
+    margin-top: 30px;
+	margin-right:200px;
+}
+nav ul li
+{
+	display: inline-block;
+	margin-right:15px;
+	font-size:18px;
+}
+nav ul li a
+{
+text-decoration: none;
+color: Black;
+text-transform: uppercase;
+
+}
+
+.topContainer
+{
+  margin-top:-18px ;
+  background: #000066;
+  width :100%;
+  height: 570px;
+}
+#topline{
+width: 130px;
+height: 70px;
+margin-top: -75px;
+border-bottom: 1px solid gray;
+position: absolute;
+}
+#topChildText{
+  margin-left: 100px;
+  padding-Top: 150px;
+  width :35%;
+  height: 500px;
+}
+#topChildText h1,p{
+	padding: 10px;
+	color: #ffff;
+
+}
+
+#topChildImage img {
+	 
+	float: right;
+  margin-right: 205px;
+  margin-top: -470px;
+	height: 600px;
+	width: 500px;
+}
+.midContainer
+{
+  padding-top: 250px;
+  padding-bottom: 150px;
+  background: #ffff;
+  width :100%;
+  height: 600px;
+
+}
+
+.midChild
+{
+	height: 600px;
+	margin-left: 10%;
+	margin-right: 15%;
+	align-content: center;
+}
+#midLine{
+width: 130px;
+height: 70px;
+margin-top: -75px;
+border-bottom: 1px solid gray;
+position: absolute;
+}
+.midChild ul{
+	margin-top: 80px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.midChild ul li p{
+color: #b3b3cc;
+}
+.findMore{
+	padding-top: 80px;
+	margin-top: 40px;
+	background: #000066;
+	height: 200px;
+}
+.findMore h1,button{
+ color :white;
+ text-transform: uppercase;
+ margin-left: 80px ;
+
+}
+.findMore button{
+ margin-top: -40px;
+ margin-right: 80px ;
+
+ float: right;
+}
+.detailContainer
+{
+
+  background: #f2f2f2;
+  width :100%;
+  height: 250px;
+}
+.detailChild
+{
+	margin-left: 15%;
+	margin-right: 15%;
+	align-content: center;
+}
+.detailChild img
+{
+    margin-top: 30px;
+    width :80px;
+	height: 20px;
+}
+.detailChild ul
+{
+ float: right;
+ list-style: none;
+}
+.detailChild ul li
+{
+	margin-right: 15px;
+  display: inline-block;
+}
+.detailChild ul li img
+{
+  width :20px;
+  height: 20px;
+}
+#buttomLine{
+width: 70%;
+height: 47px;
+margin-top: -30px;
+border-bottom: 1px solid gray;
+position: absolute;
+}
+
+.details ul{
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+.details ul li{
+	height: auto;
+	width: 100px;
+padding-right: 109px;
+}
+.details ul li h5{
+	text-decoration: none;
+	color: gray;
+	font-size: 12px;
+}
+.details ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
