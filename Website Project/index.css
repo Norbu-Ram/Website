@@ -8,6 +8,7 @@
 
 body {
  background-color: white;
+  font-family: Times, "Times New Roman", Georgia, serif;
 }
 
 .navigationBar
@@ -35,19 +36,17 @@ nav ul li
 {
 	display: inline-block;
 	margin-right:30px;
-
-	font-size:18px;
+	font-size:14px;
 }
 nav ul li a
 {
 color: Black;
 text-transform: uppercase;
-
+padding: 8px 8px;
 }
 .active,nav ul li a:hover{
 	border: 1px solid black;
 }
-
 
 
 .firstRow{
@@ -62,11 +61,14 @@ text-transform: uppercase;
 	height: 450px;
 	width: 71.9%;
 	margin: 0px 29vh;
+
 }
 .firstRowTxt{
 	height: inherit;
 	width: 53%;
 	margin-top: 20vh;
+	z-index : 2;
+
 }
 .firstRowTxt h1,p{
   color: white;
@@ -85,7 +87,6 @@ text-transform: uppercase;
 	width: 47%;
 	margin-top: 12vh;
 }
-
 
 
 .secondRow
@@ -143,6 +144,9 @@ color: #b3b3cc;
   background: transparent;
   border: 1.5px solid white;
 }
+.findMore button a{
+ color:  #fff;
+}
 
 .thirdRow
 {
@@ -164,7 +168,7 @@ color: #b3b3cc;
 .thirdContainer ul li
 {
   display: inline-block;
-  z-index: 10;
+  z-index: 1;
 }
 .thirdContainer ul li img
 {
@@ -219,6 +223,7 @@ border-bottom: 1px solid gray;
 position: absolute;
 }
 .designe1{
+	height: inherit;
 	width: 100%;
  	position: absolute;
 }
@@ -228,7 +233,7 @@ position: absolute;
  width: 400px;
 }
 .designeImg2 {
-	 height: 430px;
+ height: 430px;
  width: 150px;
  padding-top: 345px;
 }
@@ -236,6 +241,7 @@ position: absolute;
 	height: inherit;
 	width: 71.9%;
  	position: absolute;
+  z-index: 0;
 }
 .designeImg3 {
  float:right;
@@ -247,3 +253,4 @@ position: absolute;
  width: 430px;
  z-index: 0;
 }
+
