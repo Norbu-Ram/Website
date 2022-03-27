@@ -56,6 +56,7 @@ text-transform: uppercase;
 	width: auto;
 }
 .firstContainer{
+	padding-bottom: -2000px;
 	display: flex;
 	justify-content: center;
 	height: 450px;
@@ -127,17 +128,17 @@ color: #b3b3cc;
 	height: 150px;
 	color: white;
 	margin-top: 50px;
-	padding-top: 50px;
 	background: #000066;
 }
 .findMore h1{
-	margin: 20px 40px;
+	padding-left: 40px;
+	padding-top: 40px;
 }
 .findMore button{
   float: right;
   height: 40px;
   width: 130px;
-  margin: 40px 40px;
+  margin: 60px 40px;
   box-shadow: none;
   background: transparent;
   border: 1.5px solid white;
@@ -163,6 +164,7 @@ color: #b3b3cc;
 .thirdContainer ul li
 {
   display: inline-block;
+  z-index: 10;
 }
 .thirdContainer ul li img
 {
@@ -215,4 +217,33 @@ height: 47px;
 margin-top: -30px;
 border-bottom: 1px solid gray;
 position: absolute;
+}
+.designe1{
+	width: 100%;
+ 	position: absolute;
+}
+.designeImg1 {
+ float: right;
+ height: 430px;
+ width: 400px;
+}
+.designeImg2 {
+	 height: 430px;
+ width: 150px;
+ padding-top: 345px;
+}
+.designe2{
+	height: inherit;
+	width: 71.9%;
+ 	position: absolute;
+}
+.designeImg3 {
+ float:right;
+ height: inherit;
+}
+.designeImg4 {
+  position: absolute;
+ height: 230px;
+ width: 430px;
+ z-index: 0;
 }
